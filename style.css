@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    background: #FFFFFF;
+}
+header{
+
+}
+nav{
+    padding: 28px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+nav, .logo, .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    font-size: 18px;
+    color:#3A404E;
+    float:left;
+}
+.logo img{
+    margin-right: 0.5em;
+}
+a{
+    color:#667085;
+    text-decoration: none;
+}
+.pages{
+    text-decoration: none;
+}
+.pages ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+.pages a{
+    display: block;
+    padding: 8px;
+    margin-left: 32px;
+}
+.pages li{
+    display: inline;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+#entrar{
+    /* Text */
+    position: static;
+    width: 47px;
+    height: 24px;
+    left: 18px;
+    top: 10px;
+
+
+    /* Text md/Medium */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* Gray/500 */
+
+    color: #667085;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 30px;
+}
+
+#cadastro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 18px;
+
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #8E2424;
+    border: 1px solid #8E2424;
+    box-sizing: border-box;
+    color: #FFFFFF;
+
+    /* Shadow/xs */
+
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
