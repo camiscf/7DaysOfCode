@@ -123,6 +123,7 @@ a{
 }
 
 .cabecalho{
+    margin-top: 6em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -146,4 +147,8 @@ a{
     padding: 12px 0px 0px;
     margin: 24px 0px;
     color: var(--text-color);
+    height: 83px;
+    width: 792px;
+    text-align: center;
+
 }
