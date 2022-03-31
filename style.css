@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+:root {
+    --text-color: #667085;
+    --main-color: #8E2424;
+  }
+
 *{
     margin: 0;
     padding: 0;
@@ -115,4 +120,30 @@ a{
     order: 0;
     flex-grow: 0;
     margin: 0px 0px;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#about-us{
+    color: var(--main-color);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 24px 0px;
+}
+#diferente{
+    padding: 0px 32px;
+    margin: 24px 0px;
+    color: #101828;
+}
+#text-cabecalho{
+    padding: 12px 0px 0px;
+    margin: 24px 0px;
+    color: var(--text-color);
 }
