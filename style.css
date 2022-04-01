@@ -13,9 +13,6 @@ body{
     font-family: 'Inter', sans-serif;
     background: #FFFFFF;
 }
-header{
-
-}
 nav{
     padding: 28px;
     font-weight: 500;
@@ -150,5 +147,54 @@ a{
     height: 83px;
     width: 792px;
     text-align: center;
+}
+.metricas{
+    width: 280px;
+    height: 192px;
+}
+.metricas-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4em;
+}
+.metricas-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    /* identical to box height, or 120% */
+    
+    letter-spacing: -0.02em;
+    
+    color:var(--main-color);
+}
+.metricas-p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
 
+
+/* Gray/900 */
+
+color: #101828;
+}
+
+.metricas-text{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+/* Gray/500 */
+
+color: var(--text-color);
 }
