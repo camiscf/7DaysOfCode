@@ -344,3 +344,212 @@ color: #667085;
 .informacoes span{
     margin-right: 2em;
 }
+
+.depoimentos{
+    margin-left: 4em;
+    background: rgba(196, 25, 25, 0.03);
+    display: flex;
+    border-radius: 16px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4em;
+    width:74em;
+}
+.subtitle-depoimento{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+text-align: center;
+
+color: #8E2424;
+
+margin-bottom: 2em;
+}
+
+.title-depoimento{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+/* or 122% */
+
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #101828;
+
+margin-bottom: 1em;
+}
+.avatar-depoimento{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.avatar-depoimento img{
+    width: 56px;
+    height: 56px;
+
+}
+.avatar-depoimento h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-align: center;
+
+/* Gray/900 */
+
+color: #101828;
+margin: 4px 0;
+}
+
+.avatar-depoimento h3{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+text-align: center;
+
+/* Gray/500 */
+
+color: #667085;
+
+margin: 4px 0;
+}
+
+footer{
+    background: #F9FAFB;
+    margin-top: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulos-footer h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height, or 122% */
+
+text-align: center;
+letter-spacing: -0.02em;
+
+/* Gray/900 */
+
+color: #101828;
+
+
+/* Inside auto layout */
+
+margin: 20px 0px;
+}
+
+.titulos-footer h3{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+
+text-align: center;
+
+/* Gray/500 */
+
+color: #667085;
+
+
+/* Inside auto layout */
+
+margin: 20px 0px;
+}
+
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 12px 20px;
+}
+#email{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+width: 360px;
+height: 48px;
+/* Gray/500 */
+
+color: #667085;
+
+
+/* Inside auto layout */
+
+margin: 0px 8px;
+}
+
+#cadastrar{
+    width: 116px;
+height: 48px;
+    background: #8E2424;
+border: 1px solid #8E2424;
+box-sizing: border-box;
+/* Shadow/xs */
+
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 8px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Base/White */
+
+color: #FFFFFF;
+}
+
+
+.titulos-footer h5{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+
+/* Gray/400 */
+
+color: #98A2B3;
+
+
+/* Inside auto layout */
+margin: 32px 0px;
+}
+
+.final{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
